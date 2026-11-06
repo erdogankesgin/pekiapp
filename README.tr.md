@@ -86,8 +86,9 @@ Apple Silicon işlemcili, macOS 26 ya da üstü bir Mac gerekir. Cihaz üstü mo
 Burası Peki'nin GitHub'daki herkese açık sayfası: sürüm indirmeleri ve sürüm notları. Peki kapalı kaynak; uygulamanın
 kodu burada yayınlanmaz.
 
-Soru, sorun ya da öneri: [destek@getpeki.app](mailto:destek@getpeki.app) ·
-[getpeki.app/tr/support](https://getpeki.app/tr/support/)
+Bir hata buldun ya da bir önerin mi var? [Issue aç](https://github.com/erdogankesgin/pekiapp/issues) ya da
+[destek@getpeki.app](mailto:destek@getpeki.app) adresine yaz ([getpeki.app/tr/support](https://getpeki.app/tr/support/)).
+Issue'lar herkese açık: kişisel notlarını ya da API anahtarlarını yapıştırma.
 
 Peki şu açık kaynak bileşenleri içerir ya da indirir: [Noty](https://github.com/aimen08/noty) (Raf ve not
 düzenleyicisi ondan uyarlandı), OpenAI'nin Whisper modeli ve Silero VAD ile

@@ -87,8 +87,9 @@ Needs a Mac with Apple silicon and macOS 26 or later. The on-device model needs 
 This is Peki's public home on GitHub: release downloads and release notes. Peki is closed source, so the app's
 code isn't published here.
 
-Questions, problems or ideas: [destek@getpeki.app](mailto:destek@getpeki.app) ·
-[getpeki.app/support](https://getpeki.app/support/)
+Found a bug or have an idea? [Open an issue](https://github.com/erdogankesgin/pekiapp/issues), or write to
+[destek@getpeki.app](mailto:destek@getpeki.app) ([getpeki.app/support](https://getpeki.app/support/)).
+Please don't paste private notes or API keys into an issue: issues are public.
 
 Peki includes or downloads open-source components: [Noty](https://github.com/aimen08/noty) (the Shelf and the
 note editor are adapted from it), [whisper.cpp](https://github.com/ggml-org/whisper.cpp) with OpenAI's Whisper
