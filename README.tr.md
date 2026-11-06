@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Kişisel yapay zekâ ajanların, Mac'inin menü çubuğunda.</b><br>
-  Her ajana bir ad, bir yüz ve bir iş ver. Notlarını yalnızca izin verdiğin kadar görürler<br>
+  Her ajana bir ad, bir yüz ve bir iş ver. Notlarını yalnızca izin verdiğin kadar görürler
   ve varsayılan olarak Mac'inde çalışırlar.
 </p>
 

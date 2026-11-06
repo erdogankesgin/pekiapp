@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Personal AI agents, right in your Mac's menu bar.</b><br>
-  Give each agent a name, a face and a job. They work with your notes, only as much as you allow,<br>
+  Give each agent a name, a face and a job. They work with your notes, only as much as you allow,
   and run on your Mac by default.
 </p>
 
