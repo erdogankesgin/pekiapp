@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><style><![CDATA[
+.pf .eyes-joy, .pf .eyes-shut, .pf .brows-up, .pf .brows-worry, .pf .m-o, .pf .m-sad { display: none; }
+.pf.lod-small .extra-soft, .pf.lod-tiny .extra-soft, .pf.lod-tiny .mouth, .pf.lod-tiny .glasses { display: none; }
+.pf .char { transform-origin: 50px 96px; animation: bob 3.8s ease-in-out infinite; }
+.pf .lid { transform-box: fill-box; transform-origin: center; animation: blink 5.2s infinite; }
+.pf .feat { animation: look 11s ease-in-out infinite; }
+.pf .pupil { animation: peek 11s ease-in-out infinite; }
+.pf .pupil.wide { animation-name: peek-wide; }
+.pf .pupil.big { animation-name: peek-big; }
+.pf .ant-ball { transform-box: fill-box; transform-origin: center; }
+.pf .sprout { transform-box: fill-box; transform-origin: 50% 100%; animation: sway 3.2s ease-in-out infinite; }
+.pf .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.6s ease-in-out infinite; }
+.d1 .lid { animation-duration: 4.3s; animation-delay: -1.4s; }
+.d1 .feat, .d1 .pupil { animation-duration: 13s; animation-delay: -4s; }
+.d2 .lid { animation-name: blink2; animation-duration: 6.1s; animation-delay: -2.6s; }
+.d2 .feat, .d2 .pupil { animation-duration: 9.5s; animation-delay: -7s; }
+.d3 .lid { animation-duration: 3.7s; animation-delay: -0.6s; }
+.d3 .feat, .d3 .pupil { animation-duration: 12s; animation-delay: -2s; }
+.unread .pf .eyes { display: none; }
+.unread .pf .eyes-joy { display: inline; }
+.unread .pf .char { animation: wiggle 3.2s ease-in-out infinite; }
+.rec .pf .eyes { display: none; }
+.rec .pf .eyes-shut { display: inline; }
+.pf .feat, .pf .pupil { transition: transform 0.3s cubic-bezier(0.3, 0.7, 0.3, 1); }
+.ch-opts .pf .char, .ch-ideas .pf .char { animation: none; }
+.tint .f-paper { fill: var(--t-paper); }
+.tint .f-dash { fill: var(--t-dash); }
+.tint .f-ink { fill: var(--t-ink); }
+.tint .s-paper { stroke: var(--t-paper); }
+.tint .s-dash { stroke: var(--t-dash); }
+.tint .s-ink { stroke: var(--t-ink); }
+.tint .c-paper { stop-color: var(--t-paper); }
+.tint .c-dash { stop-color: var(--t-dash); }
+.tint .c-hi { stop-color: var(--t-hi); }
+.tint .c-lo { stop-color: var(--t-lo); }
+.tint [class*="f-"], .tint [class*="s-"], .tint [class*="c-"] { transition: fill 0.8s ease, stroke 0.8s ease, stop-color 0.8s ease; }
+.scene .on-bar .lid { animation: s-lid 18s infinite; }
+.scene .on-bar .feat { animation: s-feat 18s ease-in-out infinite; }
+.scene .on-bar .pupil { animation: s-pupil 18s ease-in-out infinite; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1.8px); } }
+@keyframes blink { 0%, 93%, 97%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+@keyframes blink2 { 0%, 86%, 89%, 92%, 95%, 100% { transform: scaleY(1); } 87.5%, 93.5% { transform: scaleY(0.08); } }
+@keyframes look { 0%, 16%, 44%, 58%, 86%, 100% { transform: translate(0, 0); } 22%, 38% { transform: translate(-1.7px, 0.5px); } 64%, 80% { transform: translate(1.4px, -0.9px); } }
+@keyframes peek { 0%, 16%, 44%, 58%, 86%, 100% { transform: translate(0, 0); } 22%, 38% { transform: translate(-1.1px, 0.4px); } 64%, 80% { transform: translate(0.9px, -0.75px); } }
+@keyframes peek-wide { 0%, 16%, 44%, 58%, 86%, 100% { transform: translate(0, 0); } 22%, 38% { transform: translate(-3.2px, 0.5px); } 64%, 80% { transform: translate(2.6px, -0.9px); } }
+@keyframes peek-big { 0%, 16%, 44%, 58%, 86%, 100% { transform: translate(0, 0); } 22%, 38% { transform: translate(-2.8px, 0.9px); } 64%, 80% { transform: translate(2.3px, -1.8px); } }
+@keyframes wiggle { 0%, 70%, 100% { transform: rotate(0); } 76% { transform: rotate(-7deg); } 84% { transform: rotate(6deg); } 92% { transform: rotate(-3deg); } }
+@keyframes sway { 0%, 100% { transform: rotate(-7deg); } 50% { transform: rotate(7deg); } }
+@keyframes twinkle { 0%, 100% { transform: scale(1) rotate(0); opacity: 1; } 50% { transform: scale(0.62) rotate(25deg); opacity: 0.65; } }
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.45; transform: scale(1.07); } }
+@keyframes eq { 0%, 100% { transform: scaleY(0.35); } 50% { transform: scaleY(1); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes s-arc { 0%, 35.4% { opacity: 0; } 36%, 53% { opacity: 1; } 53.6%, 100% { opacity: 0; } }
+@keyframes s-lid { 0%, 9%, 11%, 35%, 55%, 74%, 76%, 88%, 90%, 100% { transform: scaleY(1); } 10%, 75%, 89% { transform: scaleY(0.08); }
+  37%, 53% { transform: scaleY(0.62); } }
+@keyframes s-feat { 0%, 2% { transform: translate(0, 0); } 4%, 21% { transform: translate(1.4px, 1.5px); } 24.5% { transform: translate(-1.8px, -1.5px); }
+  28% { transform: translate(0, -1.8px); } 31.5% { transform: translate(1.8px, -1.5px); } 34.5% { transform: translate(0, -1.8px); }
+  37% { transform: translate(-1.8px, 1.1px); } 41% { transform: translate(1.8px, 1.1px); } 45% { transform: translate(-1.8px, 1.1px); }
+  49% { transform: translate(1.8px, 1.1px); } 53% { transform: translate(0, 1.1px); } 58%, 70% { transform: translate(1.6px, -1.4px); } 76%, 100% { transform: translate(0, 0); } }
+@keyframes s-pupil { 0%, 2% { transform: translate(0, 0); } 4%, 21% { transform: translate(2.7px, 1.5px); } 24.5% { transform: translate(-3.4px, -1.5px); }
+  28% { transform: translate(0, -1.8px); } 31.5% { transform: translate(3.4px, -1.5px); } 34.5% { transform: translate(0, -1.8px); }
+  37% { transform: translate(-3.4px, 1.1px); } 41% { transform: translate(3.4px, 1.1px); } 45% { transform: translate(-3.4px, 1.1px); }
+  49% { transform: translate(3.4px, 1.1px); } 53% { transform: translate(0, 1.1px); } 58%, 70% { transform: translate(2.9px, -1.4px); } 76%, 100% { transform: translate(0, 0); } }
+.mood.thinking .pf .char { animation: ponder 3.4s ease-in-out infinite; }
+.mood.thinking .pf .feat { animation: m-think 3.2s ease-in-out infinite; }
+.mood.thinking .pf .pupil { animation: m-think-p 3.2s ease-in-out infinite; }
+.mood.working .pf .char { animation: busy 0.9s ease-in-out infinite; }
+.mood.working .pf .lid { animation: none; transform: scaleY(0.62); }
+.mood.working .pf .feat { animation: m-read 1.9s ease-in-out infinite; }
+.mood.working .pf .pupil { animation: m-read-p 1.9s ease-in-out infinite; }
+.mood.waiting .pf .char { animation: none; transform: rotate(-6deg); }
+.mood.waiting .pf .brows-up, .mood.waiting .pf .m-o { display: inline; }
+.mood.waiting .pf .m-base { display: none; }
+.mood.dropped .pf .eyes { display: none; }
+.mood.dropped .pf .eyes-joy { display: inline; }
+.mood.dropped .pf .feat { animation: none; transform: translate(1.6px, -1.4px); }
+.mood.recording .pf .eyes, .mood.sleeping .pf .eyes { display: none; }
+.mood.recording .pf .eyes-shut, .mood.sleeping .pf .eyes-shut { display: inline; }
+.mood.error .pf .brows-worry, .mood.error .pf .m-sad { display: inline; }
+.mood.error .pf .m-base { display: none; }
+.mood.error .pf .char { animation: shiver 3s ease-in-out infinite; }
+.mood.error .pf .feat { animation: none; transform: translate(-0.8px, 1px); }
+.mood.sleeping .pf { filter: saturate(0.45) brightness(0.78); }
+.mood.sleeping .pf .char { animation: breathe 4.5s ease-in-out infinite; }
+.mood.sleeping .pf .feat, .mood.recording .pf .feat { animation: none; }
+@keyframes ponder { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+@keyframes busy { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1.2px); } }
+@keyframes shiver { 0%, 82%, 100% { transform: translateX(0); } 86% { transform: translateX(-1.6px); } 90% { transform: translateX(1.6px); } 94% { transform: translateX(-1px); } }
+@keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.025); } }
+@keyframes fly { 0%, 5% { opacity: 0; transform: translate(-60%, 60%) scale(0.4) rotate(-10deg); } 14% { opacity: 1; transform: translate(0, 0) scale(1) rotate(6deg); }
+  42% { opacity: 1; transform: translate(45%, -85%) rotate(14deg); } 58%, 100% { opacity: 0; transform: translate(75%, -145%) rotate(18deg); } }
+@keyframes dotty { 0%, 80%, 100% { opacity: 0.3; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-30%); } }
+@keyframes zz { 0% { opacity: 0; transform: translate(0, 30%); } 30% { opacity: 1; } 100% { opacity: 0; transform: translate(40%, -60%); } }
+@keyframes m-think { 0%, 15%, 100% { transform: translate(-1.8px, -1.5px); } 25%, 40%, 75%, 90% { transform: translate(0, -1.8px); } 50%, 65% { transform: translate(1.8px, -1.5px); } }
+@keyframes m-think-p { 0%, 15%, 100% { transform: translate(-1.2px, -1.3px); } 25%, 40%, 75%, 90% { transform: translate(0, -1.5px); } 50%, 65% { transform: translate(1.2px, -1.3px); } }
+@keyframes m-read { 0%, 100% { transform: translate(-1.8px, 1.1px); } 50% { transform: translate(1.8px, 1.1px); } }
+@keyframes m-read-p { 0%, 100% { transform: translate(-3.4px, 1.1px); } 50% { transform: translate(3.4px, 1.1px); } }
+text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif; }
+.fb { transform-box: fill-box; transform-origin: center; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+]]></style><defs></defs><g class="d2"><svg x="0" y="0" width="64" height="64" class="pf lod-full" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><clipPath id="f60c"><circle cx="50" cy="50" r="50"/></clipPath><linearGradient id="f60b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2740"/><stop offset="1" stop-color="#121117"/></linearGradient><radialGradient id="f60g" cx="25" cy="15" r="95" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4E6579" stop-opacity=".62"/><stop offset="1" stop-color="#4E6579" stop-opacity="0"/></radialGradient><linearGradient id="f60h" x1="0" y1="15" x2="0" y2="100" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e2e8ef"/><stop offset=".5" stop-color="#CBD6E2"/><stop offset="1" stop-color="#99a9b8"/></linearGradient></defs><g clip-path="url(#f60c)"><rect width="100" height="100" fill="url(#f60b)"/><rect width="100" height="100" fill="url(#f60g)"/><g class="char"><g class="head" fill="url(#f60h)"><rect x="24" y="23" width="52" height="92" rx="26"/></g><ellipse cx="36" cy="36" rx="7.5" ry="4.2" transform="rotate(-28 36 36)" fill="#fff" opacity=".5"/><g class="feat"><g class="eyes"><g transform="translate(39 55) scale(1)"><g class="lid"><g class="pupil"><rect x="-4.6" y="-4.6" width="9.2" height="9.2" rx="1.2" fill="#1A242E"/><rect x="-3" y="-3" width="3" height="3" fill="#fff"/></g></g></g><g transform="translate(61 55) scale(1)"><g class="lid"><g class="pupil"><rect x="-4.6" y="-4.6" width="9.2" height="9.2" rx="1.2" fill="#1A242E"/><rect x="-3" y="-3" width="3" height="3" fill="#fff"/></g></g></g></g><g class="eyes-joy"><path transform="translate(39 55) scale(1)" d="M-5.6 2.2 Q0 -5.6 5.6 2.2" stroke="#1A242E" stroke-width="3.2" fill="none" stroke-linecap="round"/><path transform="translate(61 55) scale(1)" d="M-5.6 2.2 Q0 -5.6 5.6 2.2" stroke="#1A242E" stroke-width="3.2" fill="none" stroke-linecap="round"/></g><g class="eyes-shut"><path transform="translate(39 55) scale(1)" d="M-5.6 -1.2 Q0 4.76 5.6 -1.2" stroke="#1A242E" stroke-width="3" fill="none" stroke-linecap="round"/><path transform="translate(61 55) scale(1)" d="M-5.6 -1.2 Q0 4.76 5.6 -1.2" stroke="#1A242E" stroke-width="3" fill="none" stroke-linecap="round"/></g><g class="brows-worry"><path transform="translate(39 55)" d="M-5.5 -9 L5 -12.5" stroke="#1A242E" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path transform="translate(61 55)" d="M-5 -12.5 L5.5 -9" stroke="#1A242E" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><g class="brows-up"><path transform="translate(39 55)" d="M-5.6 -10.5 Q0 -14.5 5.6 -10.5" stroke="#1A242E" stroke-width="2.4" fill="none" stroke-linecap="round"/><path transform="translate(61 55)" d="M-5.6 -10.5 Q0 -14.5 5.6 -10.5" stroke="#1A242E" stroke-width="2.4" fill="none" stroke-linecap="round"/></g><g class="mouth m-base" transform="translate(50 70)"><path d="M-7 -1.5 Q-3.5 3.5 0 -1 Q3.5 3.5 7 -1.5" stroke="#1A242E" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><g class="mouth m-sad" transform="translate(50 70)"><path d="M-5.2 2.6 Q0 -2.4 5.2 2.6" stroke="#1A242E" stroke-width="2.8" fill="none" stroke-linecap="round"/></g><g class="mouth m-o" transform="translate(50 70)"><ellipse rx="2.7" ry="3.3" fill="#1A242E"/></g></g><path class="twinkle" d="M73 11 Q74.2 17.8 81 19 Q74.2 20.2 73 27 Q71.8 20.2 65 19 Q71.8 17.8 73 11Z" fill="#FFE07A"/></g></g><circle cx="50" cy="50" r="49.3" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="1.4"/></svg></g></svg>
