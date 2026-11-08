@@ -61,6 +61,28 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 </tr>
 </table>
 
+## <img src="assets/face-pixel.svg" width="36" height="36" align="top" alt=""> Agents that make things
+
+<sub><b>New in 0.9.8.</b></sub> Ask for a page, a deck or a spreadsheet and get a real file: in its own folder, ready
+to open, with an Undo.
+
+<p align="center">
+  <img src="assets/files.svg" width="100%" alt="You ask Sunny for a five-slide launch deck saved as PowerPoint and PDF. It writes the deck, then saves a PowerPoint and a PDF; each file appears as a chip in the chat and in its folder, next to a preview of the first slide.">
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>Pages and decks</b><br>A landing page or a slide deck in one file. It checks the page at desktop and phone width and fixes what it finds.</td>
+<td width="33%" valign="top"><b>Word, Excel, PowerPoint</b><br>Documents, spreadsheets with formulas and 16:9 decks that open in Office, Pages, Numbers and Keynote.</td>
+<td width="33%" valign="top"><b>PDF tools</b><br>Merge, split, rotate, watermark, fill in forms, or read the number off a scanned invoice.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Images and GIFs</b><br>Crop, resize, convert or remove a background on this Mac. Make a social image or a small animated GIF.</td>
+<td width="33%" valign="top"><b>Reads your files</b><br>Hand it a Word, Excel, PowerPoint or PDF file and it reads the tables, the slides and the speaker notes.</td>
+<td width="33%" valign="top"><b>Its own folder</b><br>It works only in its folder inside the one you pick and runs no commands. Every change has an Undo; deleted files come back for 7 days.</td>
+</tr>
+</table>
+
 ## <img src="assets/face-scribe.svg" width="36" height="36" align="top" alt=""> Hand off the routine
 
 Agents work on a schedule or when you ask, and leave the result where you'll see it.
@@ -80,11 +102,28 @@ the agent's Jobs list.
 **Meeting notes.** Record a meeting. It is transcribed on this Mac, and an agent writes down the decisions and action
 items.
 
-**Results come to you.** A sticky note on your Shelf, a bubble under the agent's face, and a notification you can
-reply to.
+**Results where you want them.** In the chat, in your notes, or as a sticky note on your Shelf, with a bubble under the
+agent's face and a notification you can reply to.
 
 </td>
 <td width="46%"><img src="assets/agent-panel.png" width="100%" alt="An agent in the menu bar sets up its own job: a morning brief every weekday at 9:00"></td>
+</tr>
+</table>
+
+## <img src="assets/face-compass.svg" width="36" height="36" align="top" alt=""> Your calendar, reminders and mail
+
+<sub><b>New in 0.9.8.</b></sub> Turn them on per agent. Peki reads them from the apps on this Mac; it never connects to
+Google or your mail server.
+
+<p align="center">
+  <img src="assets/calendar.svg" width="100%" alt="You ask Compass what's on tomorrow and to put the dentist in at 2. It looks at your calendar, lists stand-up and lunch, and the dentist appointment slides into tomorrow's calendar at 14:00.">
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>Calendar</b><br>Reads the calendars on this Mac (iCloud, Google, Outlook), finds free time and adds events when you ask.</td>
+<td width="33%" valign="top"><b>Reminders</b><br>Adds reminders with a time and checks them off. They reach your iPhone through iCloud.</td>
+<td width="33%" valign="top"><b>Mail</b><br>Reads and summarizes Apple Mail and opens reply drafts for you. It can't send, delete or move a message.</td>
 </tr>
 </table>
 
@@ -114,7 +153,7 @@ marked.
 
 ## <img src="assets/face-atlas.svg" width="36" height="36" align="top" alt=""> Agents that work together
 
-Your agents can ask each other, talk in one room and pass work along.
+Your agents can ask each other, share out the work and talk things over in rooms.
 
 <p align="center">
   <img src="assets/room.png" width="680" alt="The Agents Room: you ask Peki and Compass to plan Saturday. Peki lists the open shopping items, Compass plans the morning and asks Chef what to cook tonight">
@@ -122,9 +161,14 @@ Your agents can ask each other, talk in one room and pass work along.
 
 <table>
 <tr>
-<td width="33%" valign="top"><b>Ask another agent</b><br>An agent asks the one that knows: "Ask Chef what we can cook tonight." The agent being asked only reads and changes nothing.</td>
-<td width="33%" valign="top"><b>The Agents Room</b><br>Bring 2–4 agents into one chat. They answer in turn, hearing each other, each in its own voice; "Let them continue" runs another round.</td>
+<td width="33%" valign="top"><b>Ask another agent</b><br>An agent asks the one that knows: "Ask Chef what we can cook tonight." The one asked only reads, and Peki checks with you before your notes reach another company.</td>
+<td width="33%" valign="top"><b>Share out the work</b><br>On larger models an agent can give parts of a job to your other agents, run them at the same time and bring the results together.</td>
 <td width="33%" valign="top"><b>Hand off a job</b><br>When a job is done, its result can go to another agent: Scribe writes the meeting notes, Compass pulls out the tasks, in one note.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Rooms that chat</b><br>Several rooms, each with its own agents and topic. The best-suited agent answers; call one by name, or say "everyone".</td>
+<td width="33%" valign="top"><b>Tasks and design reviews</b><br>A Tasks room has a lead who hands out work. In a Design review one agent drafts, the others critique, and the design you approve lands on your Shelf.</td>
+<td width="33%" valign="top"><b>Reactions and small talk</b><br>When an emoji is enough, they react instead of replying. Let them chat among themselves for a few turns, and "Summarize" leaves the gist on your Shelf.</td>
 </tr>
 </table>
 
@@ -141,8 +185,8 @@ Turned on per agent, and off until you do. A tool that changes something waits f
 <table>
 <tr>
 <td width="25%" valign="top"><b>The web</b><br>Search and read pages. Instructions written on pages are not followed.</td>
-<td width="25%" valign="top"><b>Connections</b><br>MCP servers like Notion, Linear, Figma or Fireflies. Connect signs you in through your browser.</td>
-<td width="25%" valign="top"><b>Skills</b><br>Agent Skills: a <code>SKILL.md</code> file or folder that teaches one kind of task.</td>
+<td width="25%" valign="top"><b>Connections</b><br>53 ready-made MCP servers like Notion, Linear or Fireflies, or any other. Connect signs you in through your browser.</td>
+<td width="25%" valign="top"><b>Skills</b><br>28 ready-made skills, any from skills.sh, or your own <code>SKILL.md</code>. A skill's connection is set up only with your OK.</td>
 <td width="25%" valign="top"><b>Asks before it acts</b><br>Tools that only read run without asking. Allow a tool for one agent, for all, or for one job.</td>
 </tr>
 </table>
@@ -192,6 +236,28 @@ Folders, tags and search for when the Shelf isn't enough. Ask an agent about the
 <td width="33%" valign="top"><b>Formatting as you type</b><br>Bold, lists, headings and links with the usual shortcuts; the marks stay out of sight.</td>
 </tr>
 </table>
+
+## <img src="assets/face-atlas.svg" width="36" height="36" align="top" alt=""> And a lot more in 0.9.8
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>Replies that flow</b><br>Long replies come in piece by piece as they're written. Scroll up to read and Peki won't pull you back down.</td>
+<td width="33%" valign="top"><b>Chat history and search</b><br>Each chat keeps 1,000 messages. Search it, or export it to Markdown, from the "…" menu.</td>
+<td width="33%" valign="top"><b>Recently Deleted</b><br>A deleted note waits 7 days in the Notes window before it's gone for good.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Automatic backup</b><br>Notes, agents and jobs, daily or weekly, to a folder you pick, like iCloud Drive.</td>
+<td width="33%" valign="top"><b>Shortcuts and Services</b><br>"Ask Agent", "Add Task" and "Create Note" in Shortcuts and Siri. Turn text selected in any app into a note.</td>
+<td width="33%" valign="top"><b>Share an agent</b><br>Duplicate it, or export a <code>.pekiagent</code> file. An imported agent starts with no permissions until you turn them on.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Model and effort</b><br>Pick the model from your provider's own list and set how hard it thinks. See the tokens you've used with your own key.</td>
+<td width="33%" valign="top"><b>Ready-made skills</b><br>Grill me, decision support, plan my day, prepare a presentation and 24 more, one click each.</td>
+<td width="33%" valign="top"><b>Easier to reach</b><br>VoiceOver in the menu bar, Help → Report a Problem…, thinner scroll bars and less battery when Peki sits idle.</td>
+</tr>
+</table>
+
+Every change, release by release: [release notes](https://github.com/erdogankesgin/pekiapp/releases).
 
 ## <img src="assets/face-peki.svg" width="36" height="36" align="top" alt=""> Private by default
 
