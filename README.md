@@ -156,7 +156,7 @@ marked.
 Your agents can ask each other, share out the work and talk things over in rooms.
 
 <p align="center">
-  <img src="assets/room.png" width="680" alt="The Agents Room: you ask Peki and Compass to plan Saturday. Peki lists the open shopping items, Compass plans the morning and asks Chef what to cook tonight">
+  <img src="assets/room.png" width="680" alt="A chat room called Saturday: you ask everyone for ideas. Peki lists the open shopping items, Compass plans the morning and gives Peki a thumbs-up, Chef suggests dinner and you react with a heart">
 </p>
 
 <table>
