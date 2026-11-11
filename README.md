@@ -63,7 +63,7 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 
 ## <img src="assets/face-pilot.svg" width="36" height="36" align="top" alt=""> Agents that use your Mac
 
-<sub><b>New in 0.9.18.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
+<sub><b data-version>New in 0.9.19.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
 you. The app stays in the background, your mouse stays put, and the agent's own cursor shows what it's doing.
 
 <p align="center">
@@ -263,7 +263,7 @@ Folders, tags and search for when the Shelf isn't enough. Ask an agent about the
 </tr>
 </table>
 
-## <img src="assets/face-atlas.svg" width="36" height="36" align="top" alt=""> And a lot more in 0.9.18
+## <img src="assets/face-atlas.svg" width="36" height="36" align="top" alt=""> And a lot more from the last month
 
 <table>
 <tr>
