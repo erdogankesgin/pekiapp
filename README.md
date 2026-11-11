@@ -61,9 +61,31 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 </tr>
 </table>
 
+## <img src="assets/face-pilot.svg" width="36" height="36" align="top" alt=""> Agents that use your Mac
+
+<sub><b>New in 0.9.18.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
+you. The app stays in the background, your mouse stays put, and the agent's own cursor shows what it's doing.
+
+<p align="center">
+  <img src="assets/computer.png" width="680" alt="Pilot's chat: it added today's coffee to the Expenses table in Numbers; next to it, the list of what it did: opened Numbers, looked at the window, clicked, typed and pressed Return">
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>Works in the background</b><br>It reads the window and presses buttons without bringing the app forward or moving your pointer. A cursor with the agent's face shows where it clicks.</td>
+<td width="33%" valign="top"><b>Menus, text and drags</b><br>It runs menu commands, selects and replaces text, moves files into folders in Finder and expands rows. It checks that what it typed actually landed.</td>
+<td width="33%" valign="top"><b>Web pages too</b><br>It clicks and scrolls in Chrome and Safari. If the window is on another desktop it switches there through the Dock and comes back when done.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Sees the screen, if you want</b><br>With "See the screen too", an agent on a model that can see images looks at the window's picture and clicks by position.</td>
+<td width="33%" valign="top"><b>Asks before it matters</b><br>Deleting, sending or buying needs your OK every time. Password fields, password managers, System Settings and terminals are off-limits.</td>
+<td width="33%" valign="top"><b>Only the apps you pick</b><br>Off by default, per agent, with the Accessibility permission. Limit an agent to a few apps; anything else shows an approval card first.</td>
+</tr>
+</table>
+
 ## <img src="assets/face-pixel.svg" width="36" height="36" align="top" alt=""> Agents that make things
 
-<sub><b>New in 0.9.8.</b></sub> Ask for a page, a deck or a spreadsheet and get a real file: in its own folder, ready
+Ask for a page, a deck or a spreadsheet and get a real file: in its own folder, ready
 to open, with an Undo.
 
 <p align="center">
@@ -112,7 +134,7 @@ agent's face and a notification you can reply to.
 
 ## <img src="assets/face-compass.svg" width="36" height="36" align="top" alt=""> Your calendar, reminders and mail
 
-<sub><b>New in 0.9.8.</b></sub> Turn them on per agent. Peki reads them from the apps on this Mac; it never connects to
+Turn them on per agent. Peki reads them from the apps on this Mac; it never connects to
 Google or your mail server.
 
 <p align="center">
@@ -237,23 +259,28 @@ Folders, tags and search for when the Shelf isn't enough. Ask an agent about the
 </tr>
 </table>
 
-## <img src="assets/face-atlas.svg" width="36" height="36" align="top" alt=""> And a lot more in 0.9.8
+## <img src="assets/face-atlas.svg" width="36" height="36" align="top" alt=""> And a lot more in 0.9.18
 
 <table>
 <tr>
-<td width="33%" valign="top"><b>Replies that flow</b><br>Long replies come in piece by piece as they're written. Scroll up to read and Peki won't pull you back down.</td>
-<td width="33%" valign="top"><b>Chat history and search</b><br>Each chat keeps 1,000 messages. Search it, or export it to Markdown, from the "…" menu.</td>
-<td width="33%" valign="top"><b>Recently Deleted</b><br>A deleted note waits 7 days in the Notes window before it's gone for good.</td>
+<td width="33%" valign="top"><b>Peki sets itself up</b><br>Tell the notes agent "switch to the dark theme" or "add the Notion connection". Every change shows an approval card first and can be undone.</td>
+<td width="33%" valign="top"><b>Welcome and "You"</b><br>Peki asks your name, how to address you and what you're into, then suggests agents for it. Change it later in Settings → You.</td>
+<td width="33%" valign="top"><b>Its cursor in the browser</b><br>An agent browsing through the Playwright connection shows a cursor with its face on the page, so you see who's clicking where.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>Automatic backup</b><br>Notes, agents and jobs, daily or weekly, to a folder you pick, like iCloud Drive.</td>
+<td width="33%" valign="top"><b>Drop onto the menu bar</b><br>Drag a file, image or text near Peki and drop it on an agent's face to add it to that chat, or on "New note".</td>
+<td width="33%" valign="top"><b>Folders, with your OK</b><br>Ask about a folder on your Desktop and the agent asks once: always, once or no, for reading or for changing files.</td>
+<td width="33%" valign="top"><b>Agents that know each other</b><br>Each agent sees the others' connections and skills and hands work to the one that can do it.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Quicker hands-free</b><br>Your words are transcribed while you speak and the reply starts as soon as you stop. Whisper runs on the Neural Engine.</td>
+<td width="33%" valign="top"><b>Copy and columns</b><br>Copy a reply with its formatting, a code block or a table. Hide the sidebar in the Notes window or show only the note.</td>
+<td width="33%" valign="top"><b>Chat history and search</b><br>Each chat keeps 1,000 messages. Search it, or export it to Markdown, from the "…" menu.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><b>Automatic backup</b><br>Notes, agents and jobs, daily or weekly, to a folder you pick, like iCloud Drive. Deleted notes wait 7 days.</td>
 <td width="33%" valign="top"><b>Shortcuts and Services</b><br>"Ask Agent", "Add Task" and "Create Note" in Shortcuts and Siri. Turn text selected in any app into a note.</td>
 <td width="33%" valign="top"><b>Share an agent</b><br>Duplicate it, or export a <code>.pekiagent</code> file. An imported agent starts with no permissions until you turn them on.</td>
-</tr>
-<tr>
-<td width="33%" valign="top"><b>Model and effort</b><br>Pick the model from your provider's own list and set how hard it thinks. See the tokens you've used with your own key.</td>
-<td width="33%" valign="top"><b>Ready-made skills</b><br>Grill me, decision support, plan my day, prepare a presentation and 24 more, one click each.</td>
-<td width="33%" valign="top"><b>Easier to reach</b><br>VoiceOver in the menu bar, Help → Report a Problem…, thinner scroll bars and less battery when Peki sits idle.</td>
 </tr>
 </table>
 
@@ -329,6 +356,13 @@ Yes, on up to three. To move it, choose "Remove from This Mac…" in Settings �
 <br>
 No. The microphone turns on only when you record or start a hands-free conversation, and macOS shows its orange
 indicator. Speech is transcribed on your Mac; in hands-free mode only what starts with the agent's name goes to the agent.
+</details>
+
+<details>
+<summary><b>Can an agent control my Mac?</b></summary>
+<br>
+Only if you turn on "Computer" for that agent; it's off by default and needs the Accessibility permission. It asks before
+deleting, sending or buying, never touches password fields, and you can limit it to the apps you pick.
 </details>
 
 <details>
