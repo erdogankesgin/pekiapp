@@ -67,7 +67,7 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 you. The app stays in the background, your mouse stays put, and the agent's own cursor shows what it's doing.
 
 <p align="center">
-  <img src="assets/computer.png" width="680" alt="Pilot's chat: it added today's coffee to the Expenses table in Numbers; next to it, the list of what it did: opened Numbers, looked at the window, clicked, typed and pressed Return">
+  <img src="assets/computer.gif" width="800" alt="Compass, an agent, fills in an expense form in the browser from a receipt. Its own cursor with its face clicks the fields and picks a category; before sending it asks, and sends after you allow it.">
 </p>
 
 <table>
@@ -82,6 +82,10 @@ you. The app stays in the background, your mouse stays put, and the agent's own 
 <td width="33%" valign="top"><b>Only the apps you pick</b><br>Off by default, per agent, with the Accessibility permission. Limit an agent to a few apps; anything else shows an approval card first.</td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="assets/computer.png" width="680" alt="Pilot's chat: it added today's coffee to the Expenses table in Numbers; next to it, the list of what it did: opened Numbers, looked at the window, clicked, typed and pressed Return">
+</p>
 
 ## <img src="assets/face-pixel.svg" width="36" height="36" align="top" alt=""> Agents that make things
 
