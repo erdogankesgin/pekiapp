@@ -63,7 +63,7 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 
 ## <img src="assets/face-pilot.svg" width="36" height="36" align="top" alt=""> Agents that use your Mac
 
-<sub><b data-version>New in 0.9.19.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
+<sub><b data-version>New in 0.9.20.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
 you. The app stays in the background, your mouse stays put, and the agent's own cursor shows what it's doing.
 
 <p align="center">
@@ -277,14 +277,14 @@ Folders, tags and search for when the Shelf isn't enough. Ask an agent about the
 <td width="33%" valign="top"><b>Agents that know each other</b><br>Each agent sees the others' connections and skills and hands work to the one that can do it.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>Quicker hands-free</b><br>Your words are transcribed while you speak and the reply starts as soon as you stop. Whisper runs on the Neural Engine.</td>
+<td width="33%" valign="top"><b>Hands-free, like a talk</b><br>Keep talking while the agent thinks, or cut in; a cough doesn't stop it. Turn on Gemini Live and replies come in about a second.</td>
 <td width="33%" valign="top"><b>Copy and columns</b><br>Copy a reply with its formatting, a code block or a table. Hide the sidebar in the Notes window or show only the note.</td>
 <td width="33%" valign="top"><b>Chat history and search</b><br>Each chat keeps 1,000 messages. Search it, or export it to Markdown, from the "…" menu.</td>
 </tr>
 <tr>
 <td width="33%" valign="top"><b>Automatic backup</b><br>Notes, agents and jobs, daily or weekly, to a folder you pick, like iCloud Drive. Deleted notes wait 7 days.</td>
 <td width="33%" valign="top"><b>Shortcuts and Services</b><br>"Ask Agent", "Add Task" and "Create Note" in Shortcuts and Siri. Turn text selected in any app into a note.</td>
-<td width="33%" valign="top"><b>Share an agent</b><br>Duplicate it, or export a <code>.pekiagent</code> file. An imported agent starts with no permissions until you turn them on.</td>
+<td width="33%" valign="top"><b>Any voice you like</b><br>Add ElevenLabs, OpenAI or a voice server on your Mac, like Kokoro, and give each agent its own voice.</td>
 </tr>
 </table>
 
