@@ -63,7 +63,7 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 
 ## <img src="assets/face-pilot.svg" width="36" height="36" align="top" alt=""> Agents that use your Mac
 
-<sub><b data-version>New in 0.9.24.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
+<sub><b data-version>New in 0.9.25.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
 you. The app stays in the background, your mouse stays put, and the agent's own cursor shows what it's doing.
 
 <p align="center">
@@ -267,23 +267,23 @@ Folders, tags and search for when the Shelf isn't enough. Ask an agent about the
 
 <table>
 <tr>
+<td width="33%" valign="top"><b>A natural voice on your Mac</b><br>Download Supertonic 3 once and your agents read in 31 languages with 10 voices. The voice is made on this Mac; the text never leaves it.</td>
+<td width="33%" valign="top"><b>Wardrobe</b><br>Dress your agents in costumes, hats, glasses and scenes. By the calendar, they dress up on their own for New Year, Halloween and their birthday.</td>
 <td width="33%" valign="top"><b>Peki sets itself up</b><br>Tell the notes agent "switch to the dark theme" or "add the Notion connection". Every change shows an approval card first and can be undone.</td>
+</tr>
+<tr>
 <td width="33%" valign="top"><b>Welcome and "You"</b><br>Peki asks your name, how to address you and what you're into, then suggests agents for it. Change it later in Settings → You.</td>
 <td width="33%" valign="top"><b>Its cursor in the browser</b><br>An agent browsing through the Playwright connection shows a cursor with its face on the page, so you see who's clicking where.</td>
+<td width="33%" valign="top"><b>Drop onto the menu bar</b><br>Drag a file, image or text near Peki and drop it on an agent's face to add it to that chat, or on "New note".</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>Drop onto the menu bar</b><br>Drag a file, image or text near Peki and drop it on an agent's face to add it to that chat, or on "New note".</td>
 <td width="33%" valign="top"><b>Folders, with your OK</b><br>Ask about a folder on your Desktop and the agent asks once: always, once or no, for reading or for changing files.</td>
 <td width="33%" valign="top"><b>Agents that know each other</b><br>Each agent sees the others' connections and skills and hands work to the one that can do it.</td>
+<td width="33%" valign="top"><b>Hands-free, like a talk</b><br>Keep talking while the agent thinks, or cut in; a cough doesn't stop it. Turn on Gemini Live and replies come in about a second.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>Hands-free, like a talk</b><br>Keep talking while the agent thinks, or cut in; a cough doesn't stop it. Turn on Gemini Live and replies come in about a second.</td>
 <td width="33%" valign="top"><b>Copy and columns</b><br>Copy a reply with its formatting, a code block or a table. Hide the sidebar in the Notes window or show only the note.</td>
 <td width="33%" valign="top"><b>Chat history and search</b><br>Each chat keeps 1,000 messages. Search it, or export it to Markdown, from the "…" menu.</td>
-</tr>
-<tr>
-<td width="33%" valign="top"><b>Automatic backup</b><br>Notes, agents and jobs, daily or weekly, to a folder you pick, like iCloud Drive. Deleted notes wait 7 days.</td>
-<td width="33%" valign="top"><b>Shortcuts and Services</b><br>"Ask Agent", "Add Task" and "Create Note" in Shortcuts and Siri. Turn text selected in any app into a note.</td>
 <td width="33%" valign="top"><b>Any voice you like</b><br>Add ElevenLabs, OpenAI or a voice server on your Mac, like Kokoro, and give each agent its own voice.</td>
 </tr>
 </table>
