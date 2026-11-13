@@ -63,7 +63,7 @@ agent. Chat in a small panel, or pop the chat out into its own window.
 
 ## <img src="assets/face-pilot.svg" width="36" height="36" align="top" alt=""> Agents that use your Mac
 
-<sub><b data-version>New in 0.9.23.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
+<sub><b data-version>New in 0.9.24.</b></sub> Turn on "Computer" for an agent and it opens your apps, clicks, types and uses menus for
 you. The app stays in the background, your mouse stays put, and the agent's own cursor shows what it's doing.
 
 <p align="center">
